@@ -9,6 +9,9 @@ interface Data {
   isAnswerVisible: boolean;
 }
 
+/**
+ * Q&A List Component.
+ */
 export default function QnaListComponent() {
   const [questionsAndAnswers, setQuestionsAndAnswers] = useState<Data[]>([]);
 
